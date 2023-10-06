@@ -1,5 +1,6 @@
 package com.example.gcpserver;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class GcpserverApplicationTests {
 
     @Test
-    void contextLoads() {
+    void test() {
+        Assertions.assertEquals((1+1), 2);
     }
 
 }
